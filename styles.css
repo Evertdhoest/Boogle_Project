@@ -1,0 +1,88 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+  padding: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.linkSpace {
+  padding-left: 10px;
+}
+
+.iSpace {
+  padding-left: 10px;
+}
+
+.help {
+  font-size: 40px;
+}
+
+.logoContainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7vw;
+}
+
+#boogleLogo{
+  width: 271px;
+}
+
+.searchContainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#searchbar {
+  width: 30%;
+  height: 40px;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.boogleButton {
+  margin: 0 2px;
+  height: 36px;
+  width: 126px;
+  background-color: #f2f2f2;
+  color: #757575;
+  text-decoration: none;
+  font-weight: bold;
+  border: 0;
+}
+
+.buttonsContainer button:hover {
+  border: 1px solid grey;
+  color: black;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.textContainer a {
+  color: blue;
+  padding-left: 5px;
+}
