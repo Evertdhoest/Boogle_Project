@@ -1,5 +1,5 @@
 # Boogle_Project
 
-## Showcase of HTML + CSS (Flexbox)
+#### Showcase of HTML + CSS (Flexbox)
 
-## Assignment: "Recreate Google Homepage"
+#### Assignment: "Recreate Google Homepage"
