@@ -1,5 +1,14 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Open Sans',arial,sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .navigation {
@@ -39,6 +48,10 @@ a {
   width: 271px;
 }
 
+#boogleLogoSmall {
+  width: 74px;
+}
+
 .searchContainer {
   display:flex;
   justify-content: center;
@@ -49,6 +62,7 @@ a {
 #searchbar {
   width: 30%;
   height: 40px;
+  border: 1px solid #E0E0E0;
 }
 
 .buttonsContainer {
@@ -85,4 +99,113 @@ a {
 .textContainer a {
   color: blue;
   padding-left: 5px;
+}
+
+.logContainer {
+  margin-top: 230px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logBox {
+  width: 400px;
+  padding: 50px 30px 50px 30px;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(224,224,224,1);
+-moz-box-shadow: 0px 2px 10px 0px rgba(224,224,224,1);
+box-shadow: 0px 2px 10px 0px rgba(224,224,224,1);
+}
+
+.logText {
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+#email {
+  margin-top: 2vw;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  font-size: 16px;
+}
+
+.blueForget {
+  margin-top: 1.5vw;
+  display:flex;
+  justify-content: flex-start;
+  border: none;
+  background-color: white;
+  padding: 0;
+  color: #1a73e8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.infoText {
+  font-size: 14px;
+  color: #5f6368;
+  text-align: left;
+}
+
+.infoText a {
+  color: #1a73e8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.accountFooter {
+  margin-top: 1.5vw;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blueNext {
+  border: none;
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.blueNext:hover {
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(26,115,232,0.5);
+-moz-box-shadow: 0px 1px 10px 0px rgba(26,115,232,0.5);
+box-shadow: 0px 1px 10px 0px rgba(26,115,232,0.5);
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+  margin-top: 10px;
+
+}
+
+.languageSpan {
+  font-size: 12px;
+}
+
+.lineIcon {
+  display: inline-flex;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.inlineDiv {
+  display: inline-flex;
+  align-items: center;
+}
+
+.rightFooter {
+  padding-left: 10px;
 }
